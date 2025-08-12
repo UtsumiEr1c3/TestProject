@@ -1,0 +1,79 @@
+# ########## #
+# Cocos2d-x  #
+# ########## #
+
+# 忽略整个 Cocos2d-x 引擎文件夹
+# 协作者应该在本地自行配置好引擎环境
+cocos2d/
+
+# 忽略编译输出目录
+bin/
+
+# 忽略临时的运行时文件
+*.log
+*.zip
+*.rar
+
+# 忽略编译生成的库文件（如果项目中有）
+lib/
+libs/
+obj/
+
+# 忽略不同平台的构建文件夹
+proj.android/app/build/
+proj.android/app/.cxx/
+proj.android/app/libs/
+proj.android/app/obj/
+proj.android-studio/app/build/
+proj.android-studio/app/.cxx/
+proj.android-studio/app/libs/
+proj.android-studio/app/obj/
+proj.ios_mac/build/
+proj.linux/bin/
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+proj.win32/ipch/
+proj.win32/*.sdf
+proj.win10/AppPackages/
+proj.win10/build/
+
+# 忽略最终生成包
+*.apk
+*.aab
+
+
+# ################# #
+# Visual Studio     #
+# ################# #
+.vs/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+UpgradeLog.htm
+UpgradeLog.xml
+
+
+# ################# #
+# macOS / Xcode     #
+# ################# #
+*.xccheckout
+*.xcuserdata
+xcuserdata/
+profile
+build/
+DerivedData/
+
+
+# ################# #
+# 通用系统文件       #
+# ################# #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
