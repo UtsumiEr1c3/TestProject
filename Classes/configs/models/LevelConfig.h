@@ -4,6 +4,9 @@
 #include <vector>
 #include <string>
 
+// 设计分辨率
+static const cocos2d::Size kDesignResolutionSize = cocos2d::Size(1080, 2080);
+
 // 花色类型
 enum CardSuitType
 {
