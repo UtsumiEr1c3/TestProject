@@ -12,6 +12,7 @@
  */
 class GameModel
 {
+public:
     GameModel() = default;
     ~GameModel();
 
